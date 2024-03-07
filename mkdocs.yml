@@ -6,17 +6,29 @@ theme:
     primary: black
   features:
     - navigation.expand
+    - content.tooltips
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.caret
+  - footnotes 
+  - abbr
+  - attr_list
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+watch:
+  - includes
   
 nav:
   - index.md
   - Lezioni:
-    - lezioni/lezione_01.md
+    - Parte I:
+      - lezioni/lezione_01.md
+      - lezioni/lezione_02.md
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -26,4 +38,3 @@ extra_javascript:
 plugins:
   - search:
       lang: it
-  
