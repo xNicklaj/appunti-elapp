@@ -30,7 +30,18 @@ Si può modellizare un modulo digitale in tre circuiti diversi:
 - Operatore logico, [...]
 - Circuito d'uscita che generatensioni V esterne a $V_{OH}$ e $V_{OL}$.
 
-## Moduli noti
-### Inverter
+## Dispositivi CMOS
+I transistor MOS sono composti da tre morsetti: **drain**, **gate** e **source**.
+Si può modellizzare il transistor come un interruttore in serie con una resistenza $R_{ON}$. Questa non è tuttavia lineare, ma varia all'aumentare di $V_{GS}.$
 
-Funzione logica: OUT = NOT IN
+![alt text](../img/img03.png)
+
+L'NMOS è attivo quando $V_{GS}$ è maggiore di $V_{TH}$, mentre il PMOS è attivo quando $V_{GS}$ è minore di $V_{TH}$. Questi due tipi sono perfettamente speculari e si utilizzano per creare gli intervalli di tensione descritti sopra tramite un CMOS.
+
+![alt text](../img/img04.png)
+
+Prendendo come esempio l'immagine sopra dell'inverter, quando $V_{GS} < V_{TH_P}$ l'uscita viene messa al ground, quando invece è maggiore di $V_{TH_N}$ l'uscite viene messa all'alimentazione, switchando quindi tra circa $V_{GND}$ a circa $V_{DD}$. Da notare che $V_{G} = - V_{IN}$ in quanto il dispositivo in questione è un inverter.
+
+Quando si realizzano delle reti CMOS, queste sono formate dalla stessa funzione logica in pull-up (pMOS) collegata all'alimentazione ed in pull-down (nMOS) collegata al GND.
+
+Per realizzare serie complesse il modo più semplice è realizzare prima la rete di pulldown con transistor in serie e/o parallelo e poi quella di pullup, sostituendo serie / parallelo.

@@ -24,4 +24,4 @@ Si possono fare nei **LED** o in remoto tramite **LTSpice**. La conoscenza dei l
 
 ## Ricostruzione dei segnali digitali
 
-Ogni operazione effettuata sul segnale aggiunge rumore, che è recuperabile nei segnali *digitali* ma non in quelli *analogici. Questo perché nel segnale digitale gli effetti del rumore non sono **additivi**.
+Ogni operazione effettuata sul segnale aggiunge rumore, che è recuperabile nei segnali *digitali* ma non in quelli *analogici*. Questo perché nel segnale digitale gli effetti del rumore non sono **additivi**.
