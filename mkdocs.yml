@@ -8,7 +8,6 @@ theme:
     - navigation.expand
     - content.tooltips
 markdown_extensions:
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.arithmatex:
@@ -20,6 +19,11 @@ markdown_extensions:
   - pymdownx.snippets:
       auto_append:
         - includes/abbreviations.md
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 watch:
   - includes
   
