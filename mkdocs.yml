@@ -33,6 +33,7 @@ nav:
     - Parte I:
       - lezioni/lezione_01.md
       - lezioni/lezione_02.md
+      - lezioni/lezione_03.md
 
 extra_javascript:
   - javascripts/mathjax.js

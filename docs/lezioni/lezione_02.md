@@ -23,6 +23,7 @@ La differenza $V_O - V_I$ definisce il margine di rumore:
 - $NM_H = V_{OH} - V_{IH}$
 - $NM_L = V_{OL} - V_{IL}$
 
+
 ## Struttura logica
 Si può modellizare un modulo digitale in tre circuiti diversi:
 
