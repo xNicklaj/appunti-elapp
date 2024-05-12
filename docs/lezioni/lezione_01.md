@@ -1,4 +1,4 @@
-# Lezione A0
+# Introduzione al corso
 ## Informazioni
 
 Argomenti importanti:

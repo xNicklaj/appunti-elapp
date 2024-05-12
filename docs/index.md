@@ -2,12 +2,13 @@
 
 === "Introduzione"
 
-    - [Lezione A0 - Introduzione al corso](lezioni/lezione_01.md)
+    - [Introduzione al corso](lezioni/lezione_01.md)
 
 === "Circuiti digitali combinatori e sequenziali"
     
-    - [Lezione B1 - Circuiti combinatori](lezioni/lezione_02.md)
-    - [Lezione B2 - Circuiti bistabili](lezioni/lezione_03.md)
+    - [Circuiti combinatori](lezioni/lezione_02.md)
+    - [Circuiti bistabili](lezioni/lezione_03.md)
+    - [Circuiti sequenziali](lezioni/lezione_04.md)
 
 === "Interconnessioni"
 

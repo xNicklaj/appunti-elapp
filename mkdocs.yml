@@ -34,6 +34,8 @@ nav:
       - lezioni/lezione_01.md
       - lezioni/lezione_02.md
       - lezioni/lezione_03.md
+      - lezioni/lezione_04.md
+      - lezioni/lezione_05.md
 
 extra_javascript:
   - javascripts/mathjax.js
