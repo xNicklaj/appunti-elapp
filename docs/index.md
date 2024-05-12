@@ -7,8 +7,10 @@
 === "Circuiti digitali combinatori e sequenziali"
     
     - [Circuiti combinatori](lezioni/lezione_02.md)
-    - [Circuiti bistabili](lezioni/lezione_03.md)
+    - [Celle di memorizzazione](lezioni/lezione_03.md)
     - [Circuiti sequenziali](lezioni/lezione_04.md)
+    - [Temporizzazione](lezioni/lezione_05.md)
+    - [Comparatori e Oscillatori](lezioni/lezione_06.md)
 
 === "Interconnessioni"
 
