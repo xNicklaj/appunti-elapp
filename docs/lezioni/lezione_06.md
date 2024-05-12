@@ -13,6 +13,7 @@ Questa doppia soglia è anche detta "**trigger di Shmitt**", e può essere usato
 Gli oscillatori sono dei dispositivi che si possono usare per generare diverse forme d'onda di ampiezza e frequenza varia, senza alcun segnale d'ingresso. Difatti, questi apparecchi vengono usati per *generare* segnali d'ingresso.
 ### Oscillatore ad inverter
 ![alt text](../img/lezione_06.md/image-2.png)
+
 L'oscillatore più semplice è quello formato da un numero N **dispari** di inverter in sequenza. 
 
 Questo inverter può creare solo onde quadre di periodo $T = N(t_{pdLH} + t_{pdHL})$, tuttavia,comprensibilmente e il periodo dell'onda dipende dai tempi di propagazione delle porte logiche.

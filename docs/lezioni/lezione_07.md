@@ -13,3 +13,9 @@ I **Field Programmable Gate Array** sono dei dispositivi hardware formati da un 
 ![alt text](../img/lezione_07.md/image-2.png)
 
 Sviluppare una FPGA richiede molto tempo, ma essendo i circuiti dedicati ad una singola funzione specifica, sono molto più veloci di una CPU che deve eseguire funzioni generiche.
+
+### LUT (Look Up Table)
+![alt text](../img/lezione_07.md/image-3.png)
+
+L'idea dietro le Look-Up Table è la realizzazione di tavole di verità, che dato N ingressi, M funzioni logiche ed un'uscita, realizzano una funzione logica che non viene eseguita, ma piuttosto letta dalla memoria.
+

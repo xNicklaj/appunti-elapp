@@ -11,6 +11,8 @@
     - [Circuiti sequenziali](lezioni/lezione_04.md)
     - [Temporizzazione](lezioni/lezione_05.md)
     - [Comparatori e Oscillatori](lezioni/lezione_06.md)
+    - [Logiche Programmabili](lezioni/lezione_07.md)
+    - [Memorie a semiconduttore](lezioni/lezione_08.md)
 
 === "Interconnessioni"
 
