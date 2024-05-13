@@ -16,6 +16,10 @@
 
 === "Interconnessioni"
 
+    - [Bus e Interconnessioni](lezioni/lezione_09.md)
+
 === "Sistemi di acquisizione dati"
+
+    - [Sistemi di conversione dati](lezioni/lezione_10.md)
 
 === "Gestione  dell'energia e attuazione"
