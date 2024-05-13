@@ -64,4 +64,16 @@ Hanno una lettura molto veloce ma una scrittura lenta, in quanto richiede la can
 ## EEPROM
 La **Electrically Erasable Programmable Read Only Memory** è una memoria non volatile che può essere riprogrammata elettricamente.
 ## FLASH
-## NAND FLASH
+Le memorie **flash** sono memorie non volatili molto versatili, in quanto non hanno bisogno di tensioni esterne molto elevate e sia programmazione che cancellazione avvengono in-system (system-on-chip). 
+
+Queste memorie sono composte da dei MOSFET che riescono a mantenere la carica elettrica per un lungo periodo di tempo.
+
+Ne esistono di due tipi: NAND e NOR, ovvero basate su NAND o NOR, e sono la tecnologia alla base di Chiavette USB, SSD ed SD Card.
+### FLASH NOR
+![alt text](../img/lezione_08.md/image-6.png)
+
+Le Flash NOR sono memorie ad **accesso casuale** composte da solo porte NOR, e sono molto rapide in lettura ma lente in scrittura e cancellazione.
+### FLASH NAND
+![alt text](../img/lezione_08.md/image-7.png)
+
+Le Flash NAND sono memorie ad **accesso sequenziale** (a pagine) composte da solo porte NAND e hanno un'alta velocità di lettura, scrittura e cancellazione. Inoltre, le NAND hanno una densità di bit superiore rispetto alle NOR.
