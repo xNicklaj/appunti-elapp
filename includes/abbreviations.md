@@ -5,3 +5,6 @@
 *[driver]: Partecipante alla trasmissione che invia i dati
 
 *[receiver]: Partecipante alla tramissione che riceve i dati
+
+*[aliasing]: 
+    Nell'ambito dell'analisi della frequenza di un segnale campionato, interferenza delle bande secondarie sulla banda principale tramite sovrapposizione.
