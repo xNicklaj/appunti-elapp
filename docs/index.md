@@ -21,5 +21,6 @@
 === "Sistemi di acquisizione dati"
 
     - [Sistemi di conversione dati](lezioni/lezione_10.md)
+    - [Multiplexer e Sample Hold](lezioni/lezione_11.md)
 
 === "Gestione  dell'energia e attuazione"

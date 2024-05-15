@@ -8,3 +8,7 @@
 
 *[aliasing]: 
     Nell'ambito dell'analisi della frequenza di un segnale campionato, interferenza delle bande secondarie sulla banda principale tramite sovrapposizione.
+
+*[LSB]: Least Significant Bit, valore del bit meno significativo.
+
+*[MSB]: Most Significant Bit, valore del bit più significativo.
