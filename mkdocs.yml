@@ -41,6 +41,7 @@ nav:
       - lezioni/lezione_08.md
       - lezioni/lezione_09.md
       - lezioni/lezione_10.md
+      - lezioni/lezione_11.md
     - Verilog:
       - lezioni/verilog.md
 extra_javascript:
