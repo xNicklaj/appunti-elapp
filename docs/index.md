@@ -22,5 +22,8 @@
 
     - [Sistemi di conversione dati](lezioni/lezione_10.md)
     - [Multiplexer e Sample Hold](lezioni/lezione_11.md)
+    - [Condizionamento del segnale](lezioni/lezione_12.md)
 
 === "Gestione  dell'energia e attuazione"
+
+    - [Circuiti di potenza](lezioni/lezione_13.md)
