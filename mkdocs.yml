@@ -44,9 +44,8 @@ nav:
       - lezioni/lezione_11.md
       - lezioni/lezione_12.md
       - lezioni/lezione_13.md
-      - lezioni/lezione_verilog.md
     - Verilog:
-      - lezioni/verilog.md
+      - lezioni/lezione_verilog.md
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6

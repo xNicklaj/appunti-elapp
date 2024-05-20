@@ -77,6 +77,7 @@ I ritardi hanno significato solo per la simulazione, non servono per la sintesi.
 | & | Bitwise AND |
 | \| | Bitwise OR |
 | ^ | Bitwise XOR |
+
 ### Esempio sommatore ad N bit
 ```verilog
 module Adder(cout, sum, a, b, cin);
@@ -88,3 +89,24 @@ module Adder(cout, sum, a, b, cin);
 endmodule
 ```
 Si può usare l'istruzione `parameter` per creare un parametro costante che si può modificare a freddo per cambiare il comportamento del sistema.
+### Operatori
+![alt text](../img/lezione_verilog.md/image-1.png)
+### Tipi di segnali
+Verilog permette di definire sia segnali senza memoria tramite `wire`, che segnali con memoria che ricordano l'ultimo valore assegnato tramite `reg`.
+### Sommatore a quattro bit con cicli for ed if
+```verilog
+module add4 (s, cout, ci, a, b);
+    input [3:0] a, b;
+    input ci;
+    output [3:0] s;
+    output cout;
+    wire [2:0] co;
+    genvar i;
+    generate for (i = 0; i < 4; i = i + 1) begin
+        if (i == 0)         fadd(co[0], s[0], a[0], b[0], ci);
+        else if (i == 3)    fadd(cout, s[3], a[3], b[3], co[2]);
+        else                fadd(co[i], s[i], a[i], b[i], co[i - 1]);
+        end 
+    endgenerate
+endmodule
+```
