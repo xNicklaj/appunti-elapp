@@ -27,3 +27,7 @@
 === "Gestione  dell'energia e attuazione"
 
     - [Circuiti di potenza](lezioni/lezione_13.md)
+
+=== "Verilog"
+
+    - [Verilog](lezioni/lezione_verilog.md)
