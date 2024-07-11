@@ -28,6 +28,6 @@
 
     - [Circuiti di potenza](lezioni/lezione_13.md)
 
-=== "Verilog"
+=== "Verilog" 
 
     - [Verilog](lezioni/lezione_verilog.md)
